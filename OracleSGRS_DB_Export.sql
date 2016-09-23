@@ -1,3 +1,11 @@
+-- For Oracle --
+/* Create a new User in Oracle SQL Developer */
+--CREATE USER User_Name IDENTIFIED BY Selected_Password; (User_Name = SGRS and  Selected_Password = SGRS)
+--GRANT CONNECT, RESOURCE TO User_Name;
+/* Create a new Connection with name SGRS */
+
+-- --------------------------------------------------------
+
 --------------------------------------------------------
 --  File created - Thursday-July-28-2016   
 --------------------------------------------------------
