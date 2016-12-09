@@ -12,8 +12,8 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
  
 ## Environment Setup
  - Clone the repository using  `git clone https://github.com/meelivyas11/StudentGradeRecordingSystem.git` command in Git Bash
- - Open the repository 'StudentGradeRecordingSystem' from eclipse IDE
- - Import 'SGRSApp' Project (File->Import->General->Existing Project into Workspace) from eclipse IDE
+ - Open the repository `StudentGradeRecordingSystem` from eclipse IDE
+ - Import `SGRSApp` Project (File->Import->General->Existing Project into Workspace) from eclipse IDE
  - Creating a new Apache Tomcat v8.0 server
  - Clean and Build the Project 
   * Right click project -> Run As -> Maven clean
@@ -31,3 +31,6 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
  - Connect to the `SGRS` connection and execute the script `TRIGGERS.sql`
 
 # How do I use it?
+ - Create a maven build using `tomcat:run -X` goal
+ - Open http://localhost:8080/SGRSApp/ from your web browser
+ - Use following credentials to login as a professor or student to checkout the features
