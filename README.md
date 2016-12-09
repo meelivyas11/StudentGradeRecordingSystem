@@ -1,5 +1,5 @@
 # What is it?
-This is a Java Project which follows MVC architecture and uses Spring Framwork.
+This is a Java Project which follows MVC architecture using Maven and Spring Framwork.
 
 # How do I set up?
 ## Software Requirement
@@ -15,7 +15,7 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
  - Open the repository `StudentGradeRecordingSystem` from eclipse IDE
  - Import `SGRSApp` Project (File->Import->General->Existing Project into Workspace) from eclipse IDE
  - Creating a new Apache Tomcat v8.0 server
- - Clean and Build the Project 
+ - Clean and Build the Maven Project 
   * Right click project -> Run As -> Maven clean
   * Right click project -> Run As -> Maven install
   * If Build Fails
