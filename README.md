@@ -4,7 +4,7 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
 # How do I set up?
 ## Software Requirement
  - Git Bash: https://git-scm.com/
- - Eclipse
+ - Eclipse Java EE IDE for Web Developers
  - Apache Tomcat: http://apache.spinellicreations.com/tomcat/tomcat-8/v8.0.39/bin/apache-tomcat-8.0.39.zip
  - Docker: https://www.docker.com/products/overview (Use the steps provided in `Get Started Tutorial` to install as Virtualization must be enabled for certain platforms)
  - Docker Toolbox: https://www.docker.com/products/docker-toolbox
@@ -26,8 +26,8 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
 
 ## Database Setup
  - Using the Kitematic (Docker Toolbox) create a Oracle Container.
- - Use the Container details (system user credentials) to connect to the SYS_USER from SQL Developer
- - As a SYS_USER, run `Oracle_SGRS_DB_Creation.sql` script in the repository to create SGRS schema and its tables
+ - Use the Container details (system user credentials) to connect to the system user from SQL Developer
+ - As a system user, run `Oracle_SGRS_DB_Creation.sql` script in the repository to create SGRS schema and its tables
  - Connect to the `SGRS` connection and execute the script `TRIGGERS.sql`
 
 # How do I use it?
