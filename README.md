@@ -16,13 +16,13 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
  - Import 'SGRSApp' Project (File->Import->General->Existing Project into Workspace) from eclipse IDE
  - Creating a new Apache Tomcat v8.0 server
  - Clean and Build the Project 
- * Right click project -> Run As -> Maven clean
- * Right click project -> Run As -> Maven install
- * If Build Fails
-  1. Right click project -> Maven -> Update Project
-  2. Check “Force update of Snapshots/Releases” checkbox
-  3. Click ok
-  4. Right click project -> Run As -> Maven install
+  * Right click project -> Run As -> Maven clean
+  * Right click project -> Run As -> Maven install
+  * If Build Fails
+    1. Right click project -> Maven -> Update Project
+    2. Check “Force update of Snapshots/Releases” checkbox
+    3. Click ok
+    4. Right click project -> Run As -> Maven install
 
 ## Database Setup
  - Using the Kitematic (Docker Toolbox) create a Oracle Container.
