@@ -1,4 +1,4 @@
-# Search Movie App
+# Student Grade Recording System
 
 ## Setting up the Environment
 
