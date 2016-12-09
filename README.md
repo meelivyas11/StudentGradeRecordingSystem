@@ -32,5 +32,6 @@ This is a Java Project which follows MVC architecture and uses Spring Framwork.
 
 # How do I use it?
  - Create a maven build using `tomcat:run -X` goal
+ ![Maven Build Configuration](https://cloud.githubusercontent.com/assets/7827378/21064890/79e5f420-be2b-11e6-92db-131aebf8ae1f.PNG "Maven Build Configuration")
  - Open http://localhost:8080/SGRSApp/ from your web browser
  - Use following credentials to login as a professor or student to checkout the features
