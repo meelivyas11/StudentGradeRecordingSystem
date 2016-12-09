@@ -29,6 +29,7 @@ This is a Java Project which follows MVC architecture using Maven and Spring Fra
  - Use the Container details (system user credentials) to connect to the system user from SQL Developer
  - As a system user, run `Oracle_SGRS_DB_Creation.sql` script in the repository to create SGRS schema and its tables
  - Connect to the `SGRS` connection and execute the script `TRIGGERS.sql`
+ - Update the port number in the connenction url (`DB_CONNECTION_URL`) in your DBUtils.java file present at  `SGRSApp\src\main\java\sgrs\DataProvider` location inside `StudentGradeRecordingSystem` repository
 
 # How do I use it?
  - Create a maven build using `tomcat:run -X` goal
