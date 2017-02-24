@@ -12,8 +12,8 @@
 </fmt:bundle>
 </head>
 <body class="container">
-	<div class="jumbotron">
-		<h1>Student Grading Reporting System</h1>
+	<div class="jumbotron" >
+		<h1>Student Grade Reporting System</h1>
 	</div>
 </body>
 </html>
